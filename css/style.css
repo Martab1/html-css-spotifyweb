@@ -1,0 +1,41 @@
+/* GENERAL */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* MAIN CONTENT */
+
+
+
+.main-content{
+    display: flex;
+    height: calc( 100vh - 100px);
+}
+
+.main-content .col-1{
+    width: 300px;
+    background: lightgray;
+}
+
+.main-content .col-2{
+    flex-grow: 1;
+    background: lightcyan;
+}
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.app-footer{
+    height: 100px;
+}
