@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">  
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <!-- style -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -19,7 +21,7 @@
     <main class=" main-content flex">
          
         <!-- sidebar-->
-        <section class="col-1">
+        <section class="col-1 ">
             <div class="sidebar font-14 bold">
                 <div class="sidebar-top">
 
@@ -29,26 +31,59 @@
                     </div>
                     
                     <!-- nav list -->
-                    <ul>
-                        <li>
-                            <img class=" width-30 "src="./img/home.svg" alt="home">
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <img class=" width-30 " src="./img/search.svg" alt="search">
-                            <a href="#">Cerca</a>
-                        </li>
-                        <li>
-                            <img class=" width-30 " src="./img/libreria.svg" alt="libreria">
-                            <a href="#">La tua libreria</a>
-                        </li>
-                    </ul>
+                    <nav>
+                        <ul>
+                            <li>
+                                <img class=" width-30 "src="./img/home.svg" alt="home">
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <img class=" width-30 " src="./img/search.svg" alt="search">
+                                <a href="#">Cerca</a>
+                            </li>
+                            <li>
+                                <img class=" width-30 " src="./img/libreria.svg" alt="libreria">
+                                <a href="#">La tua libreria</a>
+                            </li>
+                        </ul>
+                     </nav>   
 
 
+                     <!-- new playlist -->
                     <h4 class=" color-white uppercase bold">Playlist</h4>
+                    <ul class="new-playlist">
+                        <li class=" flex crea-playlist">
+                            <div class="square text-center">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                            <a href="#">Crea Playlist</a>
+                        </li>
+                        <li><a href="#"> Nuova Playlist</a></li>
+                        <li><a href="#">Nuova Playlist</a></li>
+                        <li><a href="#">Nuova Playlist</a></li>
+                        <li><a href="#">Nuova Playlist</a></li>
+                        <li><a href="#">Nuova Playlist</a></li>
+                        <li><a href="#">Nuova Playlist</a></li>
+                        <li><a href="#">Nuova Playlist</a></li>
+                    </ul>
                 </div>
 
                 <div class="sidebar-bottom">
+
+                    <!-- installa app-->
+                    <div class=" app"> 
+                        <a href="#">
+                         <i class="far fa-arrow-alt-circle-down"></i>
+                        Installa app
+                        </a>
+                    </div>
+
+                    <!-- profile-->
+                    <div class="profile flex">
+                         <img src="./img/profile.svg" alt="profile">
+                         <h3 class="color-white bold">John Doe</h3>
+
+                    </div>
 
                 </div>
 

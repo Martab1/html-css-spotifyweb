@@ -87,6 +87,9 @@ h4{
     padding-top:60px;
 }
 
+/* .margin-bottom-10{
+   margin-bottom: 10px;
+} */
 
 
 
@@ -121,19 +124,89 @@ h4{
 
 /* sidebar*/
 
+.sidebar{
+    padding:18px;
+}
+
+
+  /* sidebar top */
+
+
+
 .sidebar-top .logo{
     padding-bottom: 30px;
     margin-right: 30px;
     width: 150px;
 }
 
-.sidebar{
-    padding:18px;
-}
-
-.sidebar-top li{
+.sidebar-top li {
     padding-bottom:8px;
 }
+
+.sidebar h4{
+    padding-top:15px;
+}
+
+.square{
+    width: 35px;
+    height: 35px;
+    margin-right:5px;
+    margin-top:10px;
+    background:grey;
+}
+
+.fa-plus{
+    font-size:1.2rem;
+    color:black;
+    line-height: 35px;
+
+}
+
+.crea-playlist{
+    align-items: baseline;
+}
+
+ .new-playlist li{ 
+    margin-bottom:10px;
+}
+
+
+  /* sidebar bottom */
+
+.sidebar-bottom{
+    padding-top:260px;
+}
+
+.sidebar-bottom .app{
+    padding-bottom: 8px;
+      border-bottom:1px solid grey;
+}
+
+.fa-arrow-alt-circle-down{
+    font-size: 12px;
+}
+
+.profile img{
+    margin-right: 5px;
+    background:grey;
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+}
+
+.profile{
+    align-items: center;
+    margin-top: 15px;
+}
+
+.profile h3 {
+    font-size: 14px;
+}
+
+
+
+
+
 
 
 
