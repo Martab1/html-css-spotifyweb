@@ -21,6 +21,20 @@ a{
     color:grey;
 }
 
+
+h2{
+    font-size: 1.6rem;
+}
+
+h4{
+    padding-top:5px;
+}
+
+
+
+
+
+
 /* UTILITIES */
 
 .flex{
@@ -29,6 +43,10 @@ a{
 
 
 /* text */
+
+.subtitle{
+    padding-bottom: 30px;
+}
 
 .text-center{
     text-align: center;
@@ -50,6 +68,14 @@ a{
 
 .padding-top-100{
     padding-top:100px;
+}
+
+.padding-top-40{
+    padding-top:40px;
+}
+
+.padding-top-60{
+    padding-top:60px;
 }
 
 
@@ -112,13 +138,19 @@ a{
 
 
 .container{
-    padding:0 30px;
+    padding: 0px 30px;
+    padding-bottom:80px;
 }
 
 h2.recently{
-    padding-top:40px;
-    padding-bottom: 20px;
+     padding-bottom: 20px;
 }
+
+h2.create-for,
+h2.popolar{
+    padding-bottom:10px;
+}
+
 
 h2{
     font-size: 1.6rem;
@@ -127,15 +159,19 @@ h2{
 /* gallery */
 
 
-
 .gallery.first{
     padding-bottom:60px;
     justify-content: space-between;
 }
 
-.gallery.second .col{
+.gallery.second .col,
+.gallery.third .col{
     margin-right: 16px;
 }
+
+.gallery.third .col img{
+    border-radius: 50%;
+} 
 
 .gallery .col{
     flex-basis: 220px;
@@ -151,6 +187,10 @@ h2{
     height:100%;
     object-fit:cover;
 }
+
+
+
+
 
 
 
