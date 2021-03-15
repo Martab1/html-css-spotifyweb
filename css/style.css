@@ -22,6 +22,7 @@ ul{
 a{
     text-decoration: none;
     color:grey;
+    transition: all .3s;
 }
 
 a:hover{
@@ -263,8 +264,6 @@ h4{
     border: 1px solid #fff;
     border-radius: 100px;
     transition: all .3s;
-  
-
 }
 
 .header-gallery .btn:hover{
@@ -284,32 +283,66 @@ h4{
     padding-right: 20px;
 }
 
+
 .col-2 nav li a:last-child{
     padding-right: 0;
 }
 
 
-h2.recently{
-     padding-bottom: 20px;
+.col-2 nav li a::after{
+    /* padding-top: 5px;
+    border-bottom: 3px solid limegreen; */
+    content:"";
+    display:inline-block;
+    width:40%;
+    height:3px;
+    position:relative;
+    left:50%;
+    transform: translateX(-50%);
+    background:limegreen;
+    opacity: 0;
+    transition: all .3s;
+    
 }
 
-h2.create-for,
-h2.popolar{
-    padding-bottom:10px;
+.col-2 nav li:hover a::after {
+    opacity:1;
 }
 
-
-.container{
-    padding: 0px 30px;
-    padding-bottom:80px;
+.col-2 nav li:first-child a::after{
+    content:"";
+    opacity:1;
 }
+
 
 
 /* GALLERY */
 
+
+h2.recently{
+    padding-bottom: 20px;
+}
+
+h2.create-for,
+h2.popolar{
+   padding-bottom:10px;
+}
+
+
+.container{
+    padding: 0px 20px;
+    padding-bottom:80px;
+}
+
+.container h2,
+.container p{
+    padding-left: 8px;
+}
+
 .gallery{
     flex-wrap: wrap;
 }
+
 
 
 .gallery.third .col img{
