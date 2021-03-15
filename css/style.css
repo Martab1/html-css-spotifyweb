@@ -177,10 +177,19 @@ h4{
     padding-bottom: 8px;
 }
 
+
 .sidebar h4{
     padding-top: 15px;
 }
 
+.sidebar-top .nav li:before{
+    content:"";
+    display:inline-block;
+    width: 5px;
+    height:10px;
+    background:limegreen;
+  
+}
 .square{
     width: 35px;
     height: 35px;
@@ -405,9 +414,6 @@ h2.popolar{
 }
 
 
-.title:hover{
-    
-}
 
          /*
             FOOTER 
@@ -514,8 +520,6 @@ h2.popolar{
  .on-bar{
      transition: all .3s;
  }
-
- 
 
 
 
