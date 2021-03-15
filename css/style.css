@@ -614,20 +614,14 @@ h2.popolar{
 
     /* main */
     
-    .col-2 nav ul{
-        width:90%;
+     .col-2 nav ul{
         flex-wrap: wrap;
     } 
 
     .col-2 nav ul li{
-        padding-bottom:25px;
-        text-align:center;
+        padding-bottom:20px; 
         font-size: 13px;
-        width: calc(100% / 3);
-    } 
-
-     .col-2 nav li{
-        padding-right: 0;
+        
     } 
 
 
@@ -679,8 +673,8 @@ h2.popolar{
     
     /* sidebar */
 
-    .main-content .col-1{
-        width: 200px;
+     .main-content .col-1{
+        width: 160px;
     }
 
     .sidebar .logo-small{
@@ -696,10 +690,6 @@ h2.popolar{
         align-items: center;
         padding:10px 0;
         
-    }
-
-    .sidebar-bottom{
-        margin-top: 200px;
     }
 
     .sidebar-bottom .app{
