@@ -119,7 +119,7 @@ h4{
 }
 
 .main-content .col-1{
-    padding:18px;
+     padding:18px;
     width: 300px;
     background: black;
 }
@@ -149,15 +149,15 @@ h4{
 
   .sidebar{
      overflow:hidden;
- }  
+ }   
 
  .sidebar-top{
      height: calc(100% - 80px);
-     overflow:auto;
-    
+     overflow:auto; 
  }
 
- .sidebar-top .new-playlist{
+  .new-playlist{
+   
     min-height: 400px;
     overflow:auto;
  }
@@ -299,8 +299,6 @@ h4{
 
 
 .col-2 nav li a::after{
-    /* padding-top: 5px;
-    border-bottom: 3px solid limegreen; */
     content:"";
     display:inline-block;
     width:40%;
@@ -354,7 +352,6 @@ h2.popolar{
 }
 
 
-
 .gallery.third .col img{
     border-radius: 50%;
     height:100%;
@@ -368,7 +365,9 @@ h2.popolar{
 
  .song{
     width: 100%;
+    height:fit-content;
 } 
+
 
 .song img{
     display:block;
@@ -509,18 +508,11 @@ h2.popolar{
      position:absolute;
      left:98%;
      bottom:-3px;
-     width:10px;
-     height: 10px;
+     width:12px;
+     height: 12px;
      border-radius: 50%;
      background:#fff;
-     transition: all .3s;
-     
  }
-
- .on-bar{
-     transition: all .3s;
- }
-
 
 
  .footer-center .fa-random,
@@ -688,10 +680,8 @@ h2.popolar{
 
     .col-2 nav ul li{
         padding-bottom:20px; 
-        font-size: 13px;
-        
+        font-size: 13px;     
     } 
-
 
     .col{
         padding-bottom:10px;
@@ -743,7 +733,7 @@ h2.popolar{
 
      .main-content .col-1{
         width: 160px;
-    }
+    } 
 
     .sidebar .logo-small{
         display:block;
@@ -756,10 +746,10 @@ h2.popolar{
         display:flex;
         flex-direction: column;
         align-items: center;
-        padding:10px 0;
-        
-    }
+  }
 
+   
+ 
     .sidebar-bottom .app{
         padding-left: 6px;
         padding-bottom: 0;
